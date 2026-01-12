@@ -1,0 +1,39 @@
+.brand {
+    font-size: 35pt;
+    color: blue;
+    background-color: yellow;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+nav {
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+
+}
+
+a {
+    color: lightblue;
+    background-color: orangered;
+    font-size: 12pt;
+    font-family: fantasy;
+    padding: 5px;
+    border: solid black 1px;
+    border-radius: 5px;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: space-around;
+    padding: 15px;
+    
+}
+
+li {
+    color: brown;
+    size: 25pt;
+    display: flex;
+    border: solid brown 1px;
+}
